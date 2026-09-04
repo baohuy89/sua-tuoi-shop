@@ -1,7 +1,6 @@
 import React from 'react';
 import { Flame, Sparkles, CheckCircle2, ChevronRight, Snowflake, Award } from 'lucide-react';
-const imgSuaDo = 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80';
-
+const imgSuaDo = 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80'; // ✅
 interface HeroBannerProps {
   onExploreProducts: () => void;
   onOpenGuide: () => void;
