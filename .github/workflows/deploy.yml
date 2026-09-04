@@ -29,11 +29,15 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm ci || npm install
+      - name: Clean and Install dependencies
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
 
       - name: Build project
-        run: npx vite build
+        run: |
+          chmod -R +x node_modules/.bin || true
+          ./node_modules/.bin/vite build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
