@@ -1,0 +1,6 @@
+{
+  "name": "Sứa Tươi & Sốt Chấm Thần Thánh",
+  "description": "Chuyên cung cấp sứa tươi giòn sần sật kèm các loại sốt chấm gia truyền, giao hàng ướp lạnh siêu tốc và thanh toán trực tuyến tiện lợi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
