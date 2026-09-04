@@ -1,12 +1,12 @@
 {
-  "name": "sua-tuoi-shop",
+"name": "web-sua-tuoi",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
 },
   "dependencies": {
     "@google/genai": "^2.4.0",
@@ -30,9 +30,8 @@
     "gh-pages": "^6.3.0",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
-    "typescript": "~5.8.2",
-    "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
+    "typescript": "~5.8.2"
+   
   }
   
 }
